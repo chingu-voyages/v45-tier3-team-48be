@@ -24,6 +24,9 @@ app.use('/', mainRoutes);
 app.use('/dashboard', dashBoardRoutes);
 app.use('/individualGroups', individualGroupRoutes);
 
+app.listen(5000, () => { //testing
+    console.log('server is listening on port 5000')
+});
 
 module.exports = app;
 
